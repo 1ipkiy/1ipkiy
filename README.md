@@ -22,23 +22,17 @@ Looking for: internships and entry-level roles in **IT, cybersecurity, or AI eng
 
 ## Portfolio projects
 
-Shipped (public GitHub):
-
 | # | Project | What it shows |
 |---|---------|----------------|
 | 1 | [**sms-spam-classifier**](https://github.com/1ipkiy/sms-spam-classifier) | TF-IDF baseline vs DistilBERT, honest F1 on held-out SMS spam/ham, Gradio demo |
 | 2 | [**rag-qa-with-citations**](https://github.com/1ipkiy/rag-qa-with-citations) | MiniLM + FAISS RAG over cyber/AI docs, citations, hit rate@k + MRR |
-| 6 | [**prompt-injection-detector**](https://github.com/1ipkiy/prompt-injection-detector) | Attack vs benign prompt classifier + guardrail wrapper (AI security niche) |
-| 7 | [**multimodal-phishing-vision**](https://github.com/1ipkiy/multimodal-phishing-vision) | Screenshot → phishing-risk heuristic (CV features + rules), Gradio |
+| 3 | [**llm-eval-harness**](https://github.com/1ipkiy/llm-eval-harness) | Prompt-strategy eval harness with exact/keyword/rubric scoring |
+| 4 | [**tool-using-agent**](https://github.com/1ipkiy/tool-using-agent) | Deterministic tool-using agent (calculator, knowledge, units) + Gradio |
+| 5 | [**model-api-fastapi**](https://github.com/1ipkiy/model-api-fastapi) | FastAPI model API, Docker, CI, latency logging |
+| 6 | [**prompt-injection-detector**](https://github.com/1ipkiy/prompt-injection-detector) | Attack vs benign prompt classifier + RAG guardrail (AI security niche) |
+| 7 | [**multimodal-phishing-vision**](https://github.com/1ipkiy/multimodal-phishing-vision) | Screenshot → phishing-risk (CV features + rules), Gradio |
 
-Planned next (placeholders — link when live):
-
-| # | Repo (planned) | Focus |
-|---|----------------|--------|
-| 3 | `llm-eval-harness` | Test set, automated scoring, compare prompts/models |
-| 4 | `tool-using-agent` | Streaming chat + real tools, errors/retries |
-| 5 | `model-api-fastapi` | FastAPI + Docker + CI, free-tier deploy, latency logging |
-| 8 | Capstone | Combine RAG + eval + API + injection guard into one product |
+Planned: Project 8 capstone combining RAG + eval + API + injection guard into one product.
 
 ---
 
@@ -49,7 +43,7 @@ Planned next (placeholders — link when live):
 | Languages | Python |
 | ML / NLP | scikit-learn, TF-IDF, DistilBERT fine-tune, sentence-transformers |
 | RAG | Chunking, MiniLM embeddings, FAISS, citation UX |
-| Demos | Gradio |
+| Demos / APIs | Gradio, FastAPI |
 | Systems | Linux, Docker, home lab (Pi 5, WireGuard, Grafana) |
 | Domain angle | Cybersecurity coursework + AI security (prompt injection, phishing-adjacent) |
 
